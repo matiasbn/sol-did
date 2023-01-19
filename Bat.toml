@@ -1,0 +1,14 @@
+
+[required]
+auditor_names = ["miles", "matias"]
+project_name = "sool-did-audit"
+client_name = "identity-com"
+commit_hash_url = "https://github.com/identity-com/sol-did/commit/58f02842068ce34e5bfe5764d25291590635b4a2"
+starting_date = "19/01/2023"
+audit_folder_path = "."
+program_lib_path = "../sol-did/sol-did/programs/sol-did/src/lib.rs"
+project_repository_url = "git@github.com:matiasbn/sol-did.git"
+miro_board_url = "https://miro.com/app/board/uXjVPzsgmiY="
+miro_board_id = ""
+[optional]
+program_instructions_path = "../sol-did/sol-did/programs/sol-did/src/instructions"
