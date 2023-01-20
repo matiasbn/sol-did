@@ -1,0 +1,27 @@
+{
+  "name": "bat-base-repository",
+  "version": "1.0.0",
+  "description": "Bat base repository",
+  "main": "index.js",
+  "scripts": {
+    "cargo::run::co::start": " cargo run co start",
+    "cargo::run::co::finish": " cargo run co finish",
+    "cargo::run::co::miro": " cargo run co miro",
+    "cargo::run::co::open": " cargo run co open",
+    "cargo::run::update": " cargo run update",
+    "cargo::run::results": " cargo run results",
+    "bat-cli::co::start": " bat-cli co start",
+    "bat-cli::co::finish": " bat-cli co finish",
+    "bat-cli::co::miro": " bat-cli co miro",
+    "bat-cli::co::open": " bat-cli co open",
+    "bat-cli::notes": " bat-cli notes",
+    "bat-cli::update": " bat-cli update",
+    "build-report": "PREVIEW=false scripts/build-report.sh",
+    "build-report-preview": "PREVIEW=true scripts/build-report.sh",
+    "severity-check": "scripts/severity-check.sh",
+    "review-check": "scripts/review-check.sh",
+    "build-check": "scripts/build-check.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
